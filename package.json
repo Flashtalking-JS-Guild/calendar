@@ -1,0 +1,22 @@
+{
+  "name": "calendar",
+  "version": "0.0.1",
+  "description": "Work holiday calendar for JS Guild",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest",
+    "prestart": "./node_modules/.bin/babel src/ -d dist/",
+    "start": "node ./dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "jest": "^20.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
