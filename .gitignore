@@ -10,3 +10,5 @@ node_modules
 
 # Dist files
 dist/
+src/client/dist
+src/server/dist
